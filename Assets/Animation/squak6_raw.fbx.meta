@@ -1,0 +1,1041 @@
+fileFormatVersion: 2
+guid: eaefbf15dfc1f473397da49059635280
+timeCreated: 1458767048
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1
+    100002: 2
+    100004: 3
+    100006: 4
+    100008: 5
+    100010: 6
+    100012: 7
+    100014: 8
+    100016: 9
+    100018: Bend
+    100020: Bend_2
+    100022: Bend_2_
+    100024: Bend_2_2
+    100026: Bend_2_3
+    100028: Bend_2_4
+    100030: Bend_2_5
+    100032: Bend_2__2
+    100034: Bend_3
+    100036: Bend_4
+    100038: Bend_5
+    100040: Bend_6
+    100042: Bend_7
+    100044: Bend_8
+    100046: Bend_9
+    100048: Body
+    100050: Body_2
+    100052: Body_3
+    100054: Body_3_2
+    100056: Body_Parts
+    100058: Body_Parts_2
+    100060: Body_Parts_3
+    100062: Bones
+    100064: Bottom_Angry
+    100066: Bottom_Angry_2
+    100068: Bottom_Angry_3
+    100070: Bottom_Angry_4
+    100072: Bottom_Beak
+    100074: Bottom_Beak_2
+    100076: Bottom_Middle
+    100078: Bottom_Middle_2
+    100080: Bottom_Middle_3
+    100082: Bottom_Middle_4
+    100084: Bottom_Sad
+    100086: Bottom_Sad_2
+    100088: Bottom_Sad_3
+    100090: Bottom_Sad_4
+    100092: Edge_Smoothness
+    100094: Edge_Smoothness_2
+    100096: Edge_Smoothness_3
+    100098: Edge_Smoothness_4
+    100100: Edge_Smoothness_5
+    100102: Edge_Smoothness_6
+    100104: Elbow
+    100106: Elbow_2
+    100108: End
+    100110: End_2
+    100112: End_3
+    100114: End_4
+    100116: End_5
+    100118: End_6
+    100120: End_7
+    100122: End_8
+    100124: End_9
+    100126: Fancy_Foot
+    100128: Fancy_Foot_2
+    100130: Gobble
+    100132: Gobble_2
+    100134: Gobble_Controller
+    100136: Gobble_Controller_2
+    100138: Head
+    100140: Head_
+    100142: Head_2
+    100144: Head_3
+    100146: Head_Controller
+    100148: Knee
+    100150: Knee_2
+    100152: Left_Leg
+    100154: Left_Leg_2
+    100156: Left_Leg_3
+    100158: Left_Pupil
+    100160: Left_Pupil_2
+    100162: Left_Pupil__Rounded
+    100164: Left_Pupil__Rounded_2
+    100166: Left_Pupil_Controller
+    100168: Left_Pupils
+    100170: Left_Toe
+    100172: Left_Toe_2
+    100174: Left_Toe_3
+    100176: Left_Toe_4
+    100178: Left_Toe_Controller
+    100180: Left_Toe_Controller_2
+    100182: Left_Wing
+    100184: Left_Wing_2
+    100186: Middle
+    100188: Middle_2
+    100190: Middle_3
+    100192: Middle_4
+    100194: Middle_5
+    100196: Middle_6
+    100198: Middle_7
+    100200: Middle_Toe
+    100202: Middle_Toe_2
+    100204: Middle_Toe_3
+    100206: Middle_Toe_4
+    100208: Poses__Body_3
+    100210: Poses__Bottom_Beak_2
+    100212: Poses__Gobble_2
+    100214: Poses__Head_3
+    100216: Poses__Left_Leg_3
+    100218: Poses__Left_Pupil_2
+    100220: Poses__Left_Pupil__Rounded_2
+    100222: Poses__Left_Toe_3
+    100224: Poses__Left_Toe_4
+    100226: Poses__Left_Wing_2
+    100228: Poses__Middle_Toe_3
+    100230: Poses__Middle_Toe_4
+    100232: Poses__Right_Leg_3
+    100234: Poses__Right_Pupil
+    100236: Poses__Right_Pupil__Rounded_
+    100238: Poses__Right_Toe_3
+    100240: Poses__Right_Toe_4
+    100242: Poses__Right_Wing_2
+    100244: Poses__Top_Beak_2
+    100246: Pupils
+    100248: Right_Leg
+    100250: Right_Leg_2
+    100252: Right_Leg_3
+    100254: Right_Leg_3_2
+    100256: Right_Pupil
+    100258: Right_Pupil__Rounded_
+    100260: Right_Pupil_Controller
+    100262: Right_Pupils
+    100264: Right_Toe
+    100266: Right_Toe_2
+    100268: Right_Toe_3
+    100270: Right_Toe_4
+    100272: Right_Toe_Controller
+    100274: Right_Toe_Controller_2
+    100276: Right_Wing
+    100278: Right_Wing_2
+    100280: Smooth_Edges
+    100282: Smooth_Edges_2
+    100284: Smooth_Edges_3
+    100286: Smooth_Edges_4
+    100288: Smooth_Edges_5
+    100290: Smooth_Edges_6
+    100292: Smooth_Edges_7
+    100294: Smooth_Edges_8
+    100296: Smooth_Edges_9
+    100298: //RootNode
+    100300: Toe
+    100302: Toe_2
+    100304: Top
+    100306: Top_Angry
+    100308: Top_Angry_2
+    100310: Top_Angry_3
+    100312: Top_Angry_4
+    100314: Top_Beak
+    100316: Top_Beak_2
+    100318: Top_Middle
+    100320: Top_Middle_2
+    100322: Top_Middle_3
+    100324: Top_Middle_4
+    100326: Top_Sad
+    100328: Top_Sad_2
+    100330: Top_Sad_3
+    100332: Top_Sad_4
+    400000: 1
+    400002: 2
+    400004: 3
+    400006: 4
+    400008: 5
+    400010: 6
+    400012: 7
+    400014: 8
+    400016: 9
+    400018: Bend
+    400020: Bend_2
+    400022: Bend_2_
+    400024: Bend_2_2
+    400026: Bend_2_3
+    400028: Bend_2_4
+    400030: Bend_2_5
+    400032: Bend_2__2
+    400034: Bend_3
+    400036: Bend_4
+    400038: Bend_5
+    400040: Bend_6
+    400042: Bend_7
+    400044: Bend_8
+    400046: Bend_9
+    400048: Body
+    400050: Body_2
+    400052: Body_3
+    400054: Body_3_2
+    400056: Body_Parts
+    400058: Body_Parts_2
+    400060: Body_Parts_3
+    400062: Bones
+    400064: Bottom_Angry
+    400066: Bottom_Angry_2
+    400068: Bottom_Angry_3
+    400070: Bottom_Angry_4
+    400072: Bottom_Beak
+    400074: Bottom_Beak_2
+    400076: Bottom_Middle
+    400078: Bottom_Middle_2
+    400080: Bottom_Middle_3
+    400082: Bottom_Middle_4
+    400084: Bottom_Sad
+    400086: Bottom_Sad_2
+    400088: Bottom_Sad_3
+    400090: Bottom_Sad_4
+    400092: Edge_Smoothness
+    400094: Edge_Smoothness_2
+    400096: Edge_Smoothness_3
+    400098: Edge_Smoothness_4
+    400100: Edge_Smoothness_5
+    400102: Edge_Smoothness_6
+    400104: Elbow
+    400106: Elbow_2
+    400108: End
+    400110: End_2
+    400112: End_3
+    400114: End_4
+    400116: End_5
+    400118: End_6
+    400120: End_7
+    400122: End_8
+    400124: End_9
+    400126: Fancy_Foot
+    400128: Fancy_Foot_2
+    400130: Gobble
+    400132: Gobble_2
+    400134: Gobble_Controller
+    400136: Gobble_Controller_2
+    400138: Head
+    400140: Head_
+    400142: Head_2
+    400144: Head_3
+    400146: Head_Controller
+    400148: Knee
+    400150: Knee_2
+    400152: Left_Leg
+    400154: Left_Leg_2
+    400156: Left_Leg_3
+    400158: Left_Pupil
+    400160: Left_Pupil_2
+    400162: Left_Pupil__Rounded
+    400164: Left_Pupil__Rounded_2
+    400166: Left_Pupil_Controller
+    400168: Left_Pupils
+    400170: Left_Toe
+    400172: Left_Toe_2
+    400174: Left_Toe_3
+    400176: Left_Toe_4
+    400178: Left_Toe_Controller
+    400180: Left_Toe_Controller_2
+    400182: Left_Wing
+    400184: Left_Wing_2
+    400186: Middle
+    400188: Middle_2
+    400190: Middle_3
+    400192: Middle_4
+    400194: Middle_5
+    400196: Middle_6
+    400198: Middle_7
+    400200: Middle_Toe
+    400202: Middle_Toe_2
+    400204: Middle_Toe_3
+    400206: Middle_Toe_4
+    400208: Poses__Body_3
+    400210: Poses__Bottom_Beak_2
+    400212: Poses__Gobble_2
+    400214: Poses__Head_3
+    400216: Poses__Left_Leg_3
+    400218: Poses__Left_Pupil_2
+    400220: Poses__Left_Pupil__Rounded_2
+    400222: Poses__Left_Toe_3
+    400224: Poses__Left_Toe_4
+    400226: Poses__Left_Wing_2
+    400228: Poses__Middle_Toe_3
+    400230: Poses__Middle_Toe_4
+    400232: Poses__Right_Leg_3
+    400234: Poses__Right_Pupil
+    400236: Poses__Right_Pupil__Rounded_
+    400238: Poses__Right_Toe_3
+    400240: Poses__Right_Toe_4
+    400242: Poses__Right_Wing_2
+    400244: Poses__Top_Beak_2
+    400246: Pupils
+    400248: Right_Leg
+    400250: Right_Leg_2
+    400252: Right_Leg_3
+    400254: Right_Leg_3_2
+    400256: Right_Pupil
+    400258: Right_Pupil__Rounded_
+    400260: Right_Pupil_Controller
+    400262: Right_Pupils
+    400264: Right_Toe
+    400266: Right_Toe_2
+    400268: Right_Toe_3
+    400270: Right_Toe_4
+    400272: Right_Toe_Controller
+    400274: Right_Toe_Controller_2
+    400276: Right_Wing
+    400278: Right_Wing_2
+    400280: Smooth_Edges
+    400282: Smooth_Edges_2
+    400284: Smooth_Edges_3
+    400286: Smooth_Edges_4
+    400288: Smooth_Edges_5
+    400290: Smooth_Edges_6
+    400292: Smooth_Edges_7
+    400294: Smooth_Edges_8
+    400296: Smooth_Edges_9
+    400298: //RootNode
+    400300: Toe
+    400302: Toe_2
+    400304: Top
+    400306: Top_Angry
+    400308: Top_Angry_2
+    400310: Top_Angry_3
+    400312: Top_Angry_4
+    400314: Top_Beak
+    400316: Top_Beak_2
+    400318: Top_Middle
+    400320: Top_Middle_2
+    400322: Top_Middle_3
+    400324: Top_Middle_4
+    400326: Top_Sad
+    400328: Top_Sad_2
+    400330: Top_Sad_3
+    400332: Top_Sad_4
+    2300000: Bend
+    2300002: Bend_2
+    2300004: Bend_2_
+    2300006: Bend_2_2
+    2300008: Bend_2_3
+    2300010: Bend_2_4
+    2300012: Bend_2_5
+    2300014: Bend_2__2
+    2300016: Bend_3
+    2300018: Bend_4
+    2300020: Bend_5
+    2300022: Bend_6
+    2300024: Bend_7
+    2300026: Bend_8
+    2300028: Bend_9
+    2300030: Bottom_Angry
+    2300032: Bottom_Angry_2
+    2300034: Bottom_Angry_3
+    2300036: Bottom_Angry_4
+    2300038: Bottom_Middle
+    2300040: Bottom_Middle_2
+    2300042: Bottom_Middle_3
+    2300044: Bottom_Middle_4
+    2300046: Bottom_Sad
+    2300048: Bottom_Sad_2
+    2300050: Bottom_Sad_3
+    2300052: Bottom_Sad_4
+    2300054: Edge_Smoothness
+    2300056: Edge_Smoothness_2
+    2300058: Edge_Smoothness_3
+    2300060: Edge_Smoothness_4
+    2300062: Edge_Smoothness_5
+    2300064: Edge_Smoothness_6
+    2300066: Fancy_Foot
+    2300068: Fancy_Foot_2
+    2300070: Right_Leg_3_2
+    2300072: Smooth_Edges
+    2300074: Smooth_Edges_2
+    2300076: Smooth_Edges_3
+    2300078: Smooth_Edges_4
+    2300080: Smooth_Edges_5
+    2300082: Smooth_Edges_6
+    2300084: Smooth_Edges_7
+    2300086: Smooth_Edges_8
+    2300088: Smooth_Edges_9
+    2300090: Top_Angry
+    2300092: Top_Angry_2
+    2300094: Top_Angry_3
+    2300096: Top_Angry_4
+    2300098: Top_Middle
+    2300100: Top_Middle_2
+    2300102: Top_Middle_3
+    2300104: Top_Middle_4
+    2300106: Top_Sad
+    2300108: Top_Sad_2
+    2300110: Top_Sad_3
+    2300112: Top_Sad_4
+    3300000: Bend
+    3300002: Bend_2
+    3300004: Bend_2_
+    3300006: Bend_2_2
+    3300008: Bend_2_3
+    3300010: Bend_2_4
+    3300012: Bend_2_5
+    3300014: Bend_2__2
+    3300016: Bend_3
+    3300018: Bend_4
+    3300020: Bend_5
+    3300022: Bend_6
+    3300024: Bend_7
+    3300026: Bend_8
+    3300028: Bend_9
+    3300030: Bottom_Angry
+    3300032: Bottom_Angry_2
+    3300034: Bottom_Angry_3
+    3300036: Bottom_Angry_4
+    3300038: Bottom_Middle
+    3300040: Bottom_Middle_2
+    3300042: Bottom_Middle_3
+    3300044: Bottom_Middle_4
+    3300046: Bottom_Sad
+    3300048: Bottom_Sad_2
+    3300050: Bottom_Sad_3
+    3300052: Bottom_Sad_4
+    3300054: Edge_Smoothness
+    3300056: Edge_Smoothness_2
+    3300058: Edge_Smoothness_3
+    3300060: Edge_Smoothness_4
+    3300062: Edge_Smoothness_5
+    3300064: Edge_Smoothness_6
+    3300066: Fancy_Foot
+    3300068: Fancy_Foot_2
+    3300070: Right_Leg_3_2
+    3300072: Smooth_Edges
+    3300074: Smooth_Edges_2
+    3300076: Smooth_Edges_3
+    3300078: Smooth_Edges_4
+    3300080: Smooth_Edges_5
+    3300082: Smooth_Edges_6
+    3300084: Smooth_Edges_7
+    3300086: Smooth_Edges_8
+    3300088: Smooth_Edges_9
+    3300090: Top_Angry
+    3300092: Top_Angry_2
+    3300094: Top_Angry_3
+    3300096: Top_Angry_4
+    3300098: Top_Middle
+    3300100: Top_Middle_2
+    3300102: Top_Middle_3
+    3300104: Top_Middle_4
+    3300106: Top_Sad
+    3300108: Top_Sad_2
+    3300110: Top_Sad_3
+    3300112: Top_Sad_4
+    4300000: Body_3_2
+    4300002: Smooth_Edges
+    4300004: Head_3
+    4300006: Edge_Smoothness
+    4300008: Gobble_2
+    4300010: Edge_Smoothness_2
+    4300012: Bend
+    4300014: Right_Pupil
+    4300016: Bottom_Middle
+    4300018: Bottom_Sad
+    4300020: Bottom_Angry
+    4300022: Top_Middle
+    4300024: Top_Sad
+    4300026: Top_Angry
+    4300028: Right_Pupil__Rounded_
+    4300030: Bottom_Middle_2
+    4300032: Bottom_Sad_2
+    4300034: Bottom_Angry_2
+    4300036: Top_Middle_2
+    4300038: Top_Sad_2
+    4300040: Top_Angry_2
+    4300042: Left_Pupil_2
+    4300044: Bottom_Middle_3
+    4300046: Bottom_Sad_3
+    4300048: Bottom_Angry_3
+    4300050: Top_Middle_3
+    4300052: Top_Sad_3
+    4300054: Top_Angry_3
+    4300056: Left_Pupil__Rounded_2
+    4300058: Bottom_Middle_4
+    4300060: Bottom_Sad_4
+    4300062: Bottom_Angry_4
+    4300064: Top_Middle_4
+    4300066: Top_Sad_4
+    4300068: Top_Angry_4
+    4300070: Top_Beak_2
+    4300072: Edge_Smoothness_3
+    4300074: Bottom_Beak_2
+    4300076: Edge_Smoothness_4
+    4300078: Right_Wing_2
+    4300080: Bend_2
+    4300082: Edge_Smoothness_5
+    4300084: Left_Wing_2
+    4300086: Bend_3
+    4300088: Edge_Smoothness_6
+    4300090: Right_Leg_3_2
+    4300092: Fancy_Foot
+    4300094: Bend_2_2
+    4300096: Bend_4
+    4300098: Smooth_Edges_2
+    4300100: Middle_Toe_3
+    4300102: Smooth_Edges_3
+    4300104: Left_Toe_3
+    4300106: Bend_2_3
+    4300108: Smooth_Edges_4
+    4300110: Bend_5
+    4300112: Right_Toe_3
+    4300114: Bend_2_
+    4300116: Smooth_Edges_5
+    4300118: Bend_6
+    4300120: Left_Leg_3
+    4300122: Fancy_Foot_2
+    4300124: Bend_2_4
+    4300126: Bend_7
+    4300128: Smooth_Edges_6
+    4300130: Middle_Toe_4
+    4300132: Smooth_Edges_7
+    4300134: Left_Toe_4
+    4300136: Bend_2_5
+    4300138: Smooth_Edges_8
+    4300140: Bend_8
+    4300142: Right_Toe_4
+    4300144: Bend_2__2
+    4300146: Smooth_Edges_9
+    4300148: Bend_9
+    6400000: Bend
+    6400002: Bend_2
+    6400004: Bend_2_
+    6400006: Bend_2_2
+    6400008: Bend_2_3
+    6400010: Bend_2_4
+    6400012: Bend_2_5
+    6400014: Bend_2__2
+    6400016: Bend_3
+    6400018: Bend_4
+    6400020: Bend_5
+    6400022: Bend_6
+    6400024: Bend_7
+    6400026: Bend_8
+    6400028: Bend_9
+    6400030: Body_3_2
+    6400032: Bottom_Angry
+    6400034: Bottom_Angry_2
+    6400036: Bottom_Angry_3
+    6400038: Bottom_Angry_4
+    6400040: Bottom_Beak_2
+    6400042: Bottom_Middle
+    6400044: Bottom_Middle_2
+    6400046: Bottom_Middle_3
+    6400048: Bottom_Middle_4
+    6400050: Bottom_Sad
+    6400052: Bottom_Sad_2
+    6400054: Bottom_Sad_3
+    6400056: Bottom_Sad_4
+    6400058: Edge_Smoothness
+    6400060: Edge_Smoothness_2
+    6400062: Edge_Smoothness_3
+    6400064: Edge_Smoothness_4
+    6400066: Edge_Smoothness_5
+    6400068: Edge_Smoothness_6
+    6400070: Fancy_Foot
+    6400072: Fancy_Foot_2
+    6400074: Head_3
+    6400076: Left_Pupil_2
+    6400078: Left_Pupil__Rounded_2
+    6400080: Right_Leg_3_2
+    6400082: Right_Pupil
+    6400084: Right_Pupil__Rounded_
+    6400086: Smooth_Edges
+    6400088: Smooth_Edges_2
+    6400090: Smooth_Edges_3
+    6400092: Smooth_Edges_4
+    6400094: Smooth_Edges_5
+    6400096: Smooth_Edges_6
+    6400098: Smooth_Edges_7
+    6400100: Smooth_Edges_8
+    6400102: Smooth_Edges_9
+    6400104: Top_Angry
+    6400106: Top_Angry_2
+    6400108: Top_Angry_3
+    6400110: Top_Angry_4
+    6400112: Top_Beak_2
+    6400114: Top_Middle
+    6400116: Top_Middle_2
+    6400118: Top_Middle_3
+    6400120: Top_Middle_4
+    6400122: Top_Sad
+    6400124: Top_Sad_2
+    6400126: Top_Sad_3
+    6400128: Top_Sad_4
+    7400000: Main
+    9500000: //RootNode
+    13700000: Body_3_2
+    13700002: Bottom_Beak_2
+    13700004: Gobble_2
+    13700006: Head_3
+    13700008: Left_Leg_3
+    13700010: Left_Pupil_2
+    13700012: Left_Pupil__Rounded_2
+    13700014: Left_Toe_3
+    13700016: Left_Toe_4
+    13700018: Left_Wing_2
+    13700020: Middle_Toe_3
+    13700022: Middle_Toe_4
+    13700024: Right_Pupil
+    13700026: Right_Pupil__Rounded_
+    13700028: Right_Toe_3
+    13700030: Right_Toe_4
+    13700032: Right_Wing_2
+    13700034: Top_Beak_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Main
+      takeName: Main
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Parts
+        weight: 1
+      - path: Body_Parts/Body_Parts_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Leg_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Leg_3/Poses__Left_Leg_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Leg_3/Poses__Left_Leg_3/Bend_2_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Leg_3/Poses__Left_Leg_3/Bend_7
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Leg_3/Poses__Left_Leg_3/Fancy_Foot_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Leg_3/Poses__Left_Leg_3/Smooth_Edges_6
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Toe_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Toe_4/Poses__Left_Toe_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Toe_4/Poses__Left_Toe_4/Bend_2_5
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Toe_4/Poses__Left_Toe_4/Bend_8
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Left_Toe_4/Poses__Left_Toe_4/Smooth_Edges_8
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Middle_Toe_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Middle_Toe_4/Poses__Middle_Toe_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Middle_Toe_4/Poses__Middle_Toe_4/Smooth_Edges_7
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Right_Toe_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Right_Toe_4/Poses__Right_Toe_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Right_Toe_4/Poses__Right_Toe_4/Bend_2__2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Right_Toe_4/Poses__Right_Toe_4/Bend_9
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Leg_2/Right_Toe_4/Poses__Right_Toe_4/Smooth_Edges_9
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Wing_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Wing_2/Poses__Left_Wing_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Wing_2/Poses__Left_Wing_2/Bend_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Left_Wing_2/Poses__Left_Wing_2/Edge_Smoothness_6
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Left_Toe_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Left_Toe_3/Poses__Left_Toe_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Left_Toe_3/Poses__Left_Toe_3/Bend_2_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Left_Toe_3/Poses__Left_Toe_3/Bend_5
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Left_Toe_3/Poses__Left_Toe_3/Smooth_Edges_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Middle_Toe_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Middle_Toe_3/Poses__Middle_Toe_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Middle_Toe_3/Poses__Middle_Toe_3/Smooth_Edges_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Leg_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Leg_3/Poses__Right_Leg_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Leg_3/Poses__Right_Leg_3/Bend_2_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Leg_3/Poses__Right_Leg_3/Bend_4
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Leg_3/Poses__Right_Leg_3/Fancy_Foot
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Leg_3/Poses__Right_Leg_3/Smooth_Edges_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Leg_3/Right_Leg_3_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Toe_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Toe_3/Poses__Right_Toe_3
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Toe_3/Poses__Right_Toe_3/Bend_2_
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Toe_3/Poses__Right_Toe_3/Bend_6
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Leg_2/Right_Toe_3/Poses__Right_Toe_3/Smooth_Edges_5
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Wing_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Wing_2/Poses__Right_Wing_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Wing_2/Poses__Right_Wing_2/Bend_2
+        weight: 1
+      - path: Body_Parts/Body_Parts_2/Body_Parts_3/Right_Wing_2/Poses__Right_Wing_2/Edge_Smoothness_5
+        weight: 1
+      - path: Bones
+        weight: 1
+      - path: Bones/1
+        weight: 1
+      - path: Bones/1/2
+        weight: 1
+      - path: Bones/1/2/3
+        weight: 1
+      - path: Bones/1/2/3/4
+        weight: 1
+      - path: Bones/1/2/3/4/5
+        weight: 1
+      - path: Bones/1/2/3/4/5/6
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/9
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Bottom_Beak_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Bottom_Beak_2/Poses__Bottom_Beak_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Bottom_Beak_2/Poses__Bottom_Beak_2/Edge_Smoothness_4
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Gobble_Controller
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Gobble_Controller/Gobble_Controller_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Gobble_Controller/Gobble_Controller_2/Top
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Gobble_Controller/Gobble_Controller_2/Top/Middle_7
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Bottom_Beak/Gobble_Controller/Gobble_Controller_2/Top/Middle_7/End_9
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Gobble
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Gobble/Gobble_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Gobble/Gobble_2/Poses__Gobble_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Gobble/Gobble_2/Poses__Gobble_2/Bend
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Gobble/Gobble_2/Poses__Gobble_2/Edge_Smoothness_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Head_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Head_3/Poses__Head_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Head_3/Poses__Head_3/Edge_Smoothness
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2/Poses__Left_Pupil_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2/Poses__Left_Pupil_2/Bottom_Angry_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2/Poses__Left_Pupil_2/Bottom_Middle_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2/Poses__Left_Pupil_2/Bottom_Sad_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2/Poses__Left_Pupil_2/Top_Angry_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2/Poses__Left_Pupil_2/Top_Middle_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil/Left_Pupil_2/Poses__Left_Pupil_2/Top_Sad_3
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2/Poses__Left_Pupil__Rounded_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2/Poses__Left_Pupil__Rounded_2/Bottom_Angry_4
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2/Poses__Left_Pupil__Rounded_2/Bottom_Middle_4
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2/Poses__Left_Pupil__Rounded_2/Bottom_Sad_4
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2/Poses__Left_Pupil__Rounded_2/Top_Angry_4
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2/Poses__Left_Pupil__Rounded_2/Top_Middle_4
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Left_Pupil_Controller/Left_Pupils/Left_Pupil__Rounded/Left_Pupil__Rounded_2/Poses__Left_Pupil__Rounded_2/Top_Sad_4
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil/Poses__Right_Pupil
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil/Poses__Right_Pupil/Bottom_Angry
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil/Poses__Right_Pupil/Bottom_Middle
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil/Poses__Right_Pupil/Bottom_Sad
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil/Poses__Right_Pupil/Top_Angry
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil/Poses__Right_Pupil/Top_Middle
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil/Poses__Right_Pupil/Top_Sad
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_/Poses__Right_Pupil__Rounded_
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_/Poses__Right_Pupil__Rounded_/Bottom_Angry_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_/Poses__Right_Pupil__Rounded_/Bottom_Middle_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_/Poses__Right_Pupil__Rounded_/Bottom_Sad_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_/Poses__Right_Pupil__Rounded_/Top_Angry_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_/Poses__Right_Pupil__Rounded_/Top_Middle_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Pupils/Right_Pupil_Controller/Right_Pupils/Right_Pupil__Rounded_/Poses__Right_Pupil__Rounded_/Top_Sad_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Top_Beak
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Top_Beak/Top_Beak_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Top_Beak/Top_Beak_2/Poses__Top_Beak_2
+        weight: 1
+      - path: Bones/1/2/3/4/5/6/7/8/Head_/Head/Head_Controller/Head_2/Top_Beak/Top_Beak_2/Poses__Top_Beak_2/Edge_Smoothness_3
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Left_Toe_Controller_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Left_Toe_Controller_2/Left_Toe_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Left_Toe_Controller_2/Left_Toe_2/Middle_6
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Left_Toe_Controller_2/Left_Toe_2/Middle_6/End_8
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Middle_Toe_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Middle_Toe_2/Middle_5
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Middle_Toe_2/Middle_5/End_7
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Right_Toe_Controller_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Right_Toe_Controller_2/Right_Toe_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Right_Toe_Controller_2/Right_Toe_2/Middle_4
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Leg/Knee_2/Toe_2/Right_Toe_Controller_2/Right_Toe_2/Middle_4/End_6
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Wing
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Wing/Elbow_2
+        weight: 1
+      - path: Bones/1/2/3/4/Left_Wing/Elbow_2/End_2
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Left_Toe_Controller
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Left_Toe_Controller/Left_Toe
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Left_Toe_Controller/Left_Toe/Middle_3
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Left_Toe_Controller/Left_Toe/Middle_3/End_5
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Middle_Toe
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Middle_Toe/Middle_2
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Middle_Toe/Middle_2/End_4
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Right_Toe_Controller
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Right_Toe_Controller/Right_Toe
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Right_Toe_Controller/Right_Toe/Middle
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Leg/Knee/Toe/Right_Toe_Controller/Right_Toe/Middle/End_3
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Wing
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Wing/Elbow
+        weight: 1
+      - path: Bones/1/2/3/4/Right_Wing/Elbow/End
+        weight: 1
+      - path: Bones/Body
+        weight: 1
+      - path: Bones/Body/Body_2
+        weight: 1
+      - path: Bones/Body/Body_2/Body_3
+        weight: 1
+      - path: Bones/Body/Body_2/Body_3/Body_3_2
+        weight: 1
+      - path: Bones/Body/Body_2/Body_3/Poses__Body_3
+        weight: 1
+      - path: Bones/Body/Body_2/Body_3/Poses__Body_3/Smooth_Edges
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 16
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
