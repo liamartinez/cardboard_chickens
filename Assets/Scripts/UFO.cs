@@ -18,14 +18,15 @@ public class UFO : MonoBehaviour {
 	}
 
 	void start() {
-		
-
 	}
 
 	void Update() {
 		//isFull = gameObject.GetComponentsInChildren<Script>.UFOfull; 
 		if (dr.UFOfull == true) StartCoroutine (flashLights()); 
 	}
+    
+    void FixedUpdate(){
+    }
 
 	public IEnumerator flashLights() {
 		animator.SetBool ("isReady", true); 

@@ -8,7 +8,7 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: d7f51b1088d667361439150aa0d69545
+    Hash: 8db7bcb4ad2510eb8e5b1bb169afae5c
   longitude: -105.283
   latitude: 40.017
   northCorrection: -0
@@ -30,6 +30,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh pie
+    4300002: Mesh import_pie
   materials:
     importMaterials: 1
     materialName: 2

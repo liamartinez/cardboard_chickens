@@ -5,6 +5,7 @@ public class MainCode : MonoBehaviour {
 
     GameObject ball;
     GameObject cube; 
+    GameObject pie; 
 
     private float mouseX;
     private float mouseY;
@@ -21,11 +22,6 @@ public class MainCode : MonoBehaviour {
     //public Color colorEnd = Color.green;
     public float duration = 1.0F;
 
-    //cubes
-    private int numCubesX;
-    private int numCubesY;
-
-
 	void Awake() {
 		popSource = GetComponent<AudioSource> (); 
 	}
@@ -34,21 +30,13 @@ public class MainCode : MonoBehaviour {
     void Start () {
         ball = Resources.Load("chicken") as GameObject;
         cube = Resources.Load("Cube") as GameObject; 
+        pie = Resources.Load("pie") as GameObject; 
 
         camera1.enabled = true; 
         camera2.enabled = false;
 
-        numCubesX = Random.Range(5, 15);
-        numCubesY = Random.Range(5, 15);
-
-        for (int x = 0 - numCubesX/2; x < numCubesX/2; x++)
-        {
-            for (int y = 0; y < numCubesY; y++)
-            {
-                GameObject c = Instantiate(cube);
-                c.transform.position = new Vector3((float)x*30, (float)y*30, 60f);  
-            }
-        }
+        //makeCubesGrid(5,15,5,15,30);
+        makePies(4, 1, 200, 300);
     }
 	
 	// Update is called once per frame
@@ -75,13 +63,39 @@ public class MainCode : MonoBehaviour {
 	void newChicken() {
 		popSource.PlayOneShot (popSound, 1F); 
 		GameObject b = Instantiate(ball) as GameObject;
-		Debug.Log ("NEW CHICKEN");
 		b.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2;
 		Rigidbody rb = b.GetComponent<Rigidbody>(); 
 		rb.velocity = camera1.transform.forward * 150; 
-		Debug.Log ("playing?" + popSource.isPlaying);
 	}
 
+    void makePies (int numPiesX, int numPiesY, int scaleMin, int scaleMax) {
+        for (int x = 0 - numPiesX/2 + 1; x < numPiesX/2; x++)
+        {
+            for (int y = 0; y < numPiesY; y++)
+            {
+                GameObject p = Instantiate(pie);
+                int scale = Random.Range(scaleMin, scaleMax);
+                p.transform.position = new Vector3((float)x*scale/3, (float)y * scale/2 + 50, 30); 
+                p.transform.localScale =  new Vector3((float) scale, (float) scale, (float) scale);
+                p.transform.localEulerAngles = new Vector3 (0.0f, 270.0f, 90.0f);       
+            }
+        }
+    }
+
+    void makeCubesGrid(int xMin, int xMax, int yMin, int yMax, int dist) {
+        int numCubesX = Random.Range(xMin, xMax);
+        int numCubesY = Random.Range(yMin, yMax);
+
+        for (int x = 0 - numCubesX/2; x < numCubesX/2; x++)
+        {
+            for (int y = 0; y < numCubesY; y++)
+            {
+                GameObject c = Instantiate(cube);
+                c.transform.position = new Vector3((float)x*dist, (float)y*dist, 60f);  
+            }
+        }
+    }
+    //this is for controlling the camera with the mouse pre-Cardboard    
 	/*
     void LateUpdate()
     {

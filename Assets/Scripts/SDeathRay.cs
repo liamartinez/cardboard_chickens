@@ -29,7 +29,7 @@ public class SDeathRay : MonoBehaviour {
 
     void OnTriggerExit (Collider other)
     {
-		Destroy(other);
+		Destroy(other.gameObject);
 		count++; 
 		if (count > 5)
 			UFOfull = true;        
