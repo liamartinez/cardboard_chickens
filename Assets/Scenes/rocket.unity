@@ -191,7 +191,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 195654, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: m_Name
-      value: Cube (2)
+      value: Piano_C
       objectReference: {fileID: 0}
     - target: {fileID: 11443040, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: toneClip
@@ -329,6 +329,10 @@ Prefab:
       propertyPath: ray
       value: 
       objectReference: {fileID: 951633029}
+    - target: {fileID: 11427556, guid: 019255df33cc64260b32253d65020a04, type: 2}
+      propertyPath: UFOclip
+      value: 
+      objectReference: {fileID: 8300000, guid: a0b2c9222c7c24b9da67fc0e27d4d833, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 019255df33cc64260b32253d65020a04, type: 2}
   m_IsPrefabParent: 0
@@ -377,7 +381,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 195654, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: m_Name
-      value: Cube (4)
+      value: Piano_F
       objectReference: {fileID: 0}
     - target: {fileID: 11443040, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: toneClip
@@ -629,7 +633,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 195654, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: m_Name
-      value: Cube (6)
+      value: Piano_A
       objectReference: {fileID: 0}
     - target: {fileID: 11443040, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: toneClip
@@ -669,9 +673,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ff5e878e24600498e44959caa65c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drums: []
   camera1: {fileID: 1323265494}
   camera2: {fileID: 356072828}
   popSound: {fileID: 0}
+  cluckSound: {fileID: 0}
   duration: 1
 --- !u!4 &564139417
 Transform:
@@ -731,7 +737,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 195654, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: m_Name
-      value: Cube (5)
+      value: Piano_G
       objectReference: {fileID: 0}
     - target: {fileID: 11443040, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: toneClip
@@ -750,13 +756,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 611333481}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3eeee19befee040c18b91fdd9a6a04e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dr: {fileID: 0}
   ray: {fileID: 1532690505}
+  UFOclip: {fileID: 8300000, guid: a0b2c9222c7c24b9da67fc0e27d4d833, type: 3}
 --- !u!95 &611333483
 Animator:
   serializedVersion: 3
@@ -774,6 +781,80 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!82 &611333485
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 611333481}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a0b2c9222c7c24b9da67fc0e27d4d833, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 256
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &627191375
 Prefab:
   m_ObjectHideFlags: 0
@@ -821,6 +902,10 @@ Prefab:
       propertyPath: toneClip
       value: 
       objectReference: {fileID: 8300000, guid: 8f7ad6ae16f094ffe846317089d6990f, type: 3}
+    - target: {fileID: 195654, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
+      propertyPath: m_Name
+      value: Piano_E
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
   m_IsPrefabParent: 0
@@ -869,7 +954,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 195654, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: m_Name
-      value: Cube (1)
+      value: Piano_D
       objectReference: {fileID: 0}
     - target: {fileID: 11443040, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: toneClip
@@ -1598,7 +1683,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 195654, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: m_Name
-      value: Cube (3)
+      value: Piano_B
       objectReference: {fileID: 0}
     - target: {fileID: 11443040, guid: 7ec44c31df082464ab8f364b6e79e180, type: 2}
       propertyPath: toneClip
@@ -1694,7 +1779,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1340568449}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 085b66054a589482792c6b3a41d60a24, type: 3}
   m_Name: 
@@ -1846,6 +1931,84 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1633866510 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120826, guid: 019255df33cc64260b32253d65020a04, type: 2}
+  m_PrefabInternal: {fileID: 112965944}
+--- !u!82 &1633866514
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1633866510}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a0b2c9222c7c24b9da67fc0e27d4d833, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2055,9 +2218,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ff5e878e24600498e44959caa65c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drums: []
   camera1: {fileID: 0}
   camera2: {fileID: 0}
   popSound: {fileID: 8300000, guid: a0d012cb6ddd6476d9967f3c3077b4b9, type: 3}
+  cluckSound: {fileID: 8300000, guid: 89fe77aa621df4cbca20057b57027f2e, type: 3}
   duration: 1
 --- !u!4 &2064672434
 Transform:
@@ -2248,9 +2413,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ff5e878e24600498e44959caa65c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drums: []
   camera1: {fileID: 0}
   camera2: {fileID: 0}
   popSound: {fileID: 0}
+  cluckSound: {fileID: 0}
   duration: 1
 --- !u!114 &2134565849
 MonoBehaviour:

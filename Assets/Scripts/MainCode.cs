@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class MainCode : MonoBehaviour {
 
     GameObject ball;
     GameObject cube; 
     GameObject pie; 
+    
+    private float timeToLive = 5.0f;
+    
+    public AudioClip[] drums; 
 
     private float mouseX;
     private float mouseY;
@@ -15,6 +18,7 @@ public class MainCode : MonoBehaviour {
 
 	//audio
 	public AudioClip popSound; 
+    public AudioClip cluckSound; 
 	private AudioSource popSource; 
 
     //color
@@ -28,9 +32,18 @@ public class MainCode : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        
         ball = Resources.Load("chicken") as GameObject;
         cube = Resources.Load("Cube") as GameObject; 
         pie = Resources.Load("pie") as GameObject; 
+        
+        drums = new AudioClip[] {
+            (AudioClip) Resources.Load("Drums/99751__menegass__bongo1"),
+            (AudioClip) Resources.Load("Drums/99752__menegass__bongo2"),
+            (AudioClip) Resources.Load("Drums/99753__menegass__bongo3"),
+            (AudioClip) Resources.Load ("Drums/99754__menegass__bongo4"),
+            (AudioClip) Resources.Load("Drums/219156__jagadamba__bongo02")            
+        };
 
         camera1.enabled = true; 
         camera2.enabled = false;
@@ -57,15 +70,22 @@ public class MainCode : MonoBehaviour {
             camera1.enabled = !camera1.enabled;
             camera2.enabled = !camera2.enabled; 
         }
+        
+        
 	
 	}
 
 	void newChicken() {
+        float vol = Random.Range (0.2F, 0.8F);
 		popSource.PlayOneShot (popSound, 1F); 
+        if (Random.Range(0F,10F) > 9) {
+        popSource.PlayOneShot (cluckSound, 0.5F); 
+        }
 		GameObject b = Instantiate(ball) as GameObject;
 		b.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2;
 		Rigidbody rb = b.GetComponent<Rigidbody>(); 
 		rb.velocity = camera1.transform.forward * 150; 
+        Destroy(b.gameObject, timeToLive);
 	}
 
     void makePies (int numPiesX, int numPiesY, int scaleMin, int scaleMax) {
@@ -78,6 +98,8 @@ public class MainCode : MonoBehaviour {
                 p.transform.position = new Vector3((float)x*scale/3, (float)y * scale/2 + 50, 30); 
                 p.transform.localScale =  new Vector3((float) scale, (float) scale, (float) scale);
                 p.transform.localEulerAngles = new Vector3 (0.0f, 270.0f, 90.0f);       
+                AudioSource drum = p.GetComponent<AudioSource>(); 
+                drum.clip = drums[Random.Range(0, drums.Length)];
             }
         }
     }

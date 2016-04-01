@@ -6,6 +6,12 @@ public class UFO : MonoBehaviour {
 	private Animator animator; 
 	public SDeathRay dr; 
 	public GameObject ray; 
+    
+    private AudioSource UFOsource; 
+    public AudioClip UFOclip; 
+    
+    private bool playSound = false; 
+    private bool alreadyPlaying = false; 
 
 	//bool isFull; 
 	//bool isUFOleaving; 
@@ -15,14 +21,24 @@ public class UFO : MonoBehaviour {
 		animator.SetBool ("isReady", false); 
 		animator.SetBool ("isLeaving", false); 
 		dr = ray.GetComponent<SDeathRay> (); 
+        
+        UFOsource = GetComponent<AudioSource>(); 
 	}
 
 	void start() {
+      
 	}
 
 	void Update() {
-		//isFull = gameObject.GetComponentsInChildren<Script>.UFOfull; 
-		if (dr.UFOfull == true) StartCoroutine (flashLights()); 
+
+		if (dr.UFOfull == true) {   
+            if (!UFOsource.isPlaying && !alreadyPlaying) {
+                UFOsource.PlayOneShot(UFOclip, 1F);   
+                alreadyPlaying = true; 
+            } 
+            StartCoroutine (flashLights());   
+        }
+        
 	}
     
     void FixedUpdate(){
@@ -34,6 +50,7 @@ public class UFO : MonoBehaviour {
 		transform.Find("DeathRay").GetComponent<MeshRenderer>().enabled = false; 
 		animator.SetBool ("isLeaving", true);
 		transform.Find("UFO").GetComponent<MeshRenderer>().enabled = false; 
+        
 	}
 }
 
