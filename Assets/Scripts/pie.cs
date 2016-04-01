@@ -17,11 +17,9 @@ public class pie : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        if (!isHit) {
 	    tempPos.x += horizontalSpeed; 
         tempPos.y += Mathf.Sin(Time.realtimeSinceStartup * verticalSpeed) * amplitude; 
         transform.position = tempPos; 
-        }
 	}
     
     void OnCollisionEnter(Collision collision) {

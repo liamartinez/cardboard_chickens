@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
-public class Cube : MonoBehaviour {
+public class Cube_noAudio : MonoBehaviour {
 
     //audio
-	public AudioClip toneClip; 
-	private AudioSource toneSource; 
+	//public AudioClip toneClip; 
+	//private AudioSource toneSource; 
 
     public float colourChangeDelay = 0.09f;
     float currentDelay = 0f;
@@ -18,7 +18,7 @@ public class Cube : MonoBehaviour {
     };
 
     void Awake() {
-		toneSource = GetComponent<AudioSource> (); 
+		//toneSource = GetComponent<AudioSource> (); 
 	}
 
     void start()
@@ -28,7 +28,8 @@ public class Cube : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        toneSource.PlayOneShot (toneClip, Random.Range(0.02f, 0.8f)); 
+        //toneSource.PlayOneShot (toneClip, Random.Range(0.02f, 0.8f)); 
+        Debug.Log("Cube Contact was made!");
         colourChangeCollision = true;
         currentDelay = Time.time + colourChangeDelay;
     }
@@ -39,6 +40,7 @@ public class Cube : MonoBehaviour {
             gameObject.GetComponent<Renderer>().material.color = colors[Random.Range(0, colors.Length)]; 
             if (Time.time > currentDelay)
             {
+                //gameObject.GetComponent<Renderer>().material.color = colors[Random.Range(0, colors.Length)]; 
                 gameObject.GetComponent<Renderer>().material.color = Color.white;
                 colourChangeCollision = false;
             }

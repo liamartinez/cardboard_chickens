@@ -2567,7 +2567,6 @@ GameObject:
   - 4: {fileID: 450594}
   - 135: {fileID: 13514886}
   - 54: {fileID: 5472644}
-  - 64: {fileID: 6487486}
   m_Layer: 0
   m_Name: chicken
   m_TagString: Untagged
@@ -7485,18 +7484,6 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300062, guid: eaefbf15dfc1f473397da49059635280, type: 3}
---- !u!64 &6487486
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192714}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 0}
 --- !u!64 &6489648
 MeshCollider:
   m_ObjectHideFlags: 1

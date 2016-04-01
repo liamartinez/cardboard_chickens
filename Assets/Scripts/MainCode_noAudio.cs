@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class MainCode : MonoBehaviour {
+public class MainCode_noAudio : MonoBehaviour {
 
     GameObject ball;
     GameObject cube; 
@@ -8,7 +8,7 @@ public class MainCode : MonoBehaviour {
     
     private float timeToLive = 2.0f;
     
-    public AudioClip[] drums; 
+    //public AudioClip[] drums; 
 
     private float mouseX;
     private float mouseY;
@@ -37,6 +37,7 @@ public class MainCode : MonoBehaviour {
         cube = Resources.Load("Cube") as GameObject; 
         pie = Resources.Load("pie") as GameObject; 
         
+        /*
         drums = new AudioClip[] {
             (AudioClip) Resources.Load("Drums/99751__menegass__bongo1"),
             (AudioClip) Resources.Load("Drums/99752__menegass__bongo2"),
@@ -44,6 +45,7 @@ public class MainCode : MonoBehaviour {
             (AudioClip) Resources.Load ("Drums/99754__menegass__bongo4"),
             (AudioClip) Resources.Load("Drums/219156__jagadamba__bongo02")            
         };
+        */
 
         camera1.enabled = true; 
         camera2.enabled = false;
@@ -98,11 +100,11 @@ public class MainCode : MonoBehaviour {
             {
                 GameObject p = Instantiate(pie);
                 int scale = Random.Range(scaleMin, scaleMax);
-                p.transform.position = new Vector3((float)x*scale/3 + 50, (float)y * scale/2 + 50, 30); 
+                p.transform.position = new Vector3((float)x*scale/3, (float)y * scale/2 + 50, 30); 
                 p.transform.localScale =  new Vector3((float) scale, (float) scale, (float) scale);
                 p.transform.localEulerAngles = new Vector3 (0.0f, 270.0f, 90.0f);       
                 AudioSource drum = p.GetComponent<AudioSource>(); 
-                drum.clip = drums[Random.Range(0, drums.Length)];
+                //drum.clip = drums[Random.Range(0, drums.Length)];
             }
         }
     }
