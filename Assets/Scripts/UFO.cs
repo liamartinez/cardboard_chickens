@@ -21,16 +21,10 @@ public class UFO : MonoBehaviour {
 		animator.SetBool ("isReady", false); 
 		animator.SetBool ("isLeaving", false); 
 		dr = ray.GetComponent<SDeathRay> (); 
-        
         UFOsource = GetComponent<AudioSource>(); 
 	}
 
-	void start() {
-      
-	}
-
 	void Update() {
-
 		if (dr.UFOfull == true) {   
             if (!UFOsource.isPlaying && !alreadyPlaying) {
                 UFOsource.PlayOneShot(UFOclip, 1F);   
@@ -38,11 +32,7 @@ public class UFO : MonoBehaviour {
             } 
             StartCoroutine (flashLights());   
         }
-        
 	}
-    
-    void FixedUpdate(){
-    }
 
 	public IEnumerator flashLights() {
 		animator.SetBool ("isReady", true); 

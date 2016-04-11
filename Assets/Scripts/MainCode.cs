@@ -6,7 +6,7 @@ public class MainCode : MonoBehaviour {
     GameObject cube; 
     GameObject pie; 
     
-    private float timeToLive = 2.0f;
+    private float timeToLive = 10.0f;
     
     public AudioClip[] drums; 
 
@@ -15,6 +15,8 @@ public class MainCode : MonoBehaviour {
 
     public Camera camera1;
     public Camera camera2;
+    
+    private bool isLaunched = false; 
 
 	//audio
 	public AudioClip popSound; 
@@ -46,37 +48,38 @@ public class MainCode : MonoBehaviour {
         };
 
         camera1.enabled = true; 
-        camera2.enabled = false;
+        //camera2.enabled = false;
 
         //makeCubesGrid(5,15,5,15,30);
         makePies(4, 1, 200, 300);
     }
 	
 	// Update is called once per frame
-	void Update () {
-
-		if (Cardboard.SDK.VRModeEnabled && Cardboard.SDK.Triggered) {
-			newChicken (); 
-		}
+	void LateUpdate () {
+        
+        
+        
+		if (Cardboard.SDK.VRModeEnabled && Cardboard.SDK.Triggered && !isLaunched) {
+            Debug.Log("islaunched is " + isLaunched);
+            newChicken (); 
+		} 
+        
+        if (Cardboard.SDK.VRModeEnabled && !Cardboard.SDK.Triggered) {
+            Debug.Log("islaunched is " + isLaunched);
+            isLaunched = false; 
+        }
 
         if (Input.GetKeyDown("space"))
         {
 			newChicken (); 
 			//popSource.PlayOneShot (popSound, 1F); 
         } 
-
-        if (Input.GetKeyUp(KeyCode.Return))
-        {
-            camera1.enabled = !camera1.enabled;
-            camera2.enabled = !camera2.enabled; 
-        }
-        
-        
-	
 	}
 
 	void newChicken() {
+        isLaunched = true; 
         //play sounds
+        Debug.Log ("NEW CHICKEN");
         float vol = Random.Range (0.2F, 0.8F);
 		popSource.PlayOneShot (popSound, 1F); 
         if (Random.Range(0F,10F) > 9) {
@@ -84,9 +87,14 @@ public class MainCode : MonoBehaviour {
         }
         //make new chicken
 		GameObject b = Instantiate(ball) as GameObject;
-		b.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 10;
-		Rigidbody rb = b.GetComponent<Rigidbody>(); 
-		rb.velocity = camera1.transform.forward * 350; 
+		//b.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 3;
+        b.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 30;
+        b.GetComponent<Rigidbody>().AddForce (camera1.transform.forward * 100.0f, ForceMode.Impulse);
+
+        //Rigidbody rb = b.GetComponent<Rigidbody>(); 
+        //rb.AddForce(Camera.main.transform.forward * 300.0f);
+		//rb.velocity = rb.velocity + camera1.transform.forward * 250; 
+        
         //destroy 
         Destroy(b.gameObject, timeToLive);
 	}

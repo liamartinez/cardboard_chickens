@@ -20,6 +20,7 @@ public class pie : MonoBehaviour {
 	    tempPos.x += horizontalSpeed; 
         tempPos.y += Mathf.Sin(Time.realtimeSinceStartup * verticalSpeed) * amplitude; 
         transform.position = tempPos; 
+
 	}
     
     void OnCollisionEnter(Collision collision) {
